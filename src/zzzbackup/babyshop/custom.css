@@ -1,0 +1,105 @@
+/* Styling untuk keseluruhan halaman */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container utama */
+.card {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card1 {
+    max-width: 1180px;
+    margin: 10px auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card2 {
+    max-width: 1300px;
+    margin: 10px auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* background-image: url('/img/image.jpg'); */
+}
+
+.card3 {
+    max-width: 1300px;
+    margin: 10px auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* background-image: url('/img/image.jpg'); */
+}
+
+.cardp {
+    max-width: 200px;
+    margin: 10px auto;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cardp img {
+    width: 100%;  /* Sesuai lebar card */
+    height: 200px; /* Tinggi tetap */
+    object-fit: cover; /* Crop gambar jika ukurannya tidak sesuai */
+    border-radius: 8px; /* Opsional: buat sudut gambar melengkung */
+}
+
+.cardp p {
+    text-align: left;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px; /* Jarak antar card */
+    justify-content: center; /* Agar card berada di tengah */
+  }
+
+
+
+/* Header utama */
+h1 {
+    color: #dd379e;
+    text-align: center;
+}
+
+/* Paragraf */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Garis pemisah */
+hr {
+    border: none;
+    height: 2px;
+    background: #ddd;
+    margin: 10px 0;
+}
+
+/* Greeting */
+small {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    color: #888;
+    margin-top: 5px;
+}

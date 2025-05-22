@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "name": "Perlak 83",
+    "category": "Makanan",
+    "price": 286522,
+    "stock": 82,
+    "status": "Tersedia"
+  },
+  {
+    "id": 2,
+    "name": "Susu Formula 62",
+    "category": "Mainan",
+    "price": 126764,
+    "stock": 40,
+    "status": "Tersedia"
+  },
+  {
+    "id": 3,
+    "name": "Selimut Bayi 17",
+    "category": "Mainan",
+    "price": 152956,
+    "stock": 100,
+    "status": "Tersedia"
+  },
+  {
+    "id": 4,
+    "name": "Kereta Dorong 18",
+    "category": "Pakaian",
+    "price": 253874,
+    "stock": 78,
+    "status": "Tersedia"
+  },
+  {
+    "id": 5,
+    "name": "Gendongan Bayi 89",
+    "category": "Perlengkapan",
+    "price": 202763,
+    "stock": 34,
+    "status": "Tersedia"
+  },
+  {
+    "id": 6,
+    "name": "Baju Bayi 5",
+    "category": "Makanan",
+    "price": 440008,
+    "stock": 10,
+    "status": "Tersedia"
+  },
+  {
+    "id": 7,
+    "name": "Botol Susu 64",
+    "category": "Perawatan",
+    "price": 388389,
+    "stock": 36,
+    "status": "Tersedia"
+  },
+  {
+    "id": 8,
+    "name": "Tisu Basah 71",
+    "category": "Perlengkapan",
+    "price": 321153,
+    "stock": 11,
+    "status": "Tersedia"
+  },
+  {
+    "id": 9,
+    "name": "Mainan Edukatif 65",
+    "category": "Pakaian",
+    "price": 376501,
+    "stock": 19,
+    "status": "Tersedia"
+  },
+  {
+    "id": 10,
+    "name": "Tempat Makan Bayi 64",
+    "category": "Makanan",
+    "price": 292435,
+    "stock": 11,
+    "status": "Tersedia"
+  },
+  {
+    "id": 11,
+    "name": "Baju Bayi 88",
+    "category": "Perlengkapan",
+    "price": 287972,
+    "stock": 56,
+    "status": "Tersedia"
+  },
+  {
+    "id": 12,
+    "name": "Tisu Basah 79",
+    "category": "Perlengkapan",
+    "price": 126615,
+    "stock": 86,
+    "status": "Tersedia"
+  },
+  {
+    "id": 13,
+    "name": "Botol Susu 48",
+    "category": "Mainan",
+    "price": 85348,
+    "stock": 95,
+    "status": "Tersedia"
+  },
+  {
+    "id": 14,
+    "name": "Shampoo Bayi 100",
+    "category": "Perlengkapan",
+    "price": 487901,
+    "stock": 65,
+    "status": "Tersedia"
+  },
+  {
+    "id": 15,
+    "name": "Selimut Bayi 68",
+    "category": "Makanan",
+    "price": 340812,
+    "stock": 3,
+    "status": "Tersedia"
+  },
+  {
+    "id": 16,
+    "name": "Kereta Dorong 22",
+    "category": "Perawatan",
+    "price": 65954,
+    "stock": 57,
+    "status": "Tersedia"
+  },
+  {
+    "id": 17,
+    "name": "Mainan Edukatif 57",
+    "category": "Perawatan",
+    "price": 94815,
+    "stock": 63,
+    "status": "Tersedia"
+  },
+  {
+    "id": 18,
+    "name": "Perlak 63",
+    "category": "Perlengkapan",
+    "price": 75555,
+    "stock": 49,
+    "status": "Tersedia"
+  },
+  {
+    "id": 19,
+    "name": "Mainan Edukatif 26",
+    "category": "Pakaian",
+    "price": 418050,
+    "stock": 30,
+    "status": "Tersedia"
+  },
+  {
+    "id": 20,
+    "name": "Susu Formula 73",
+    "category": "Mainan",
+    "price": 342187,
+    "stock": 73,
+    "status": "Tersedia"
+  },
+  {
+    "id": 21,
+    "name": "Tisu Basah 21",
+    "category": "Makanan",
+    "price": 208885,
+    "stock": 88,
+    "status": "Tersedia"
+  },
+  {
+    "id": 22,
+    "name": "Botol Susu 43",
+    "category": "Perawatan",
+    "price": 110025,
+    "stock": 28,
+    "status": "Tersedia"
+  },
+  {
+    "id": 23,
+    "name": "Botol Susu 12",
+    "category": "Perlengkapan",
+    "price": 426885,
+    "stock": 93,
+    "status": "Tersedia"
+  },
+  {
+    "id": 24,
+    "name": "Baby Oil 12",
+    "category": "Perlengkapan",
+    "price": 320959,
+    "stock": 21,
+    "status": "Tersedia"
+  },
+  {
+    "id": 25,
+    "name": "Tisu Basah 13",
+    "category": "Perawatan",
+    "price": 103081,
+    "stock": 42,
+    "status": "Tersedia"
+  },
+  {
+    "id": 26,
+    "name": "Baju Bayi 49",
+    "category": "Pakaian",
+    "price": 55657,
+    "stock": 71,
+    "status": "Tersedia"
+  },
+  {
+    "id": 27,
+    "name": "Mainan Edukatif 94",
+    "category": "Pakaian",
+    "price": 62353,
+    "stock": 44,
+    "status": "Tersedia"
+  },
+  {
+    "id": 28,
+    "name": "Kereta Dorong 62",
+    "category": "Pakaian",
+    "price": 452555,
+    "stock": 43,
+    "status": "Tersedia"
+  },
+  {
+    "id": 29,
+    "name": "Mainan Edukatif 18",
+    "category": "Pakaian",
+    "price": 412428,
+    "stock": 23,
+    "status": "Tersedia"
+  },
+  {
+    "id": 30,
+    "name": "Popok Bayi 32",
+    "category": "Makanan",
+    "price": 44614,
+    "stock": 22,
+    "status": "Tersedia"
+  },
+  {
+    "id": 31,
+    "name": "Tisu Basah 80",
+    "category": "Mainan",
+    "price": 231202,
+    "stock": 5,
+    "status": "Tersedia"
+  },
+  {
+    "id": 32,
+    "name": "Kereta Dorong 63",
+    "category": "Perlengkapan",
+    "price": 330710,
+    "stock": 73,
+    "status": "Tersedia"
+  },
+  {
+    "id": 33,
+    "name": "Mainan Edukatif 47",
+    "category": "Makanan",
+    "price": 37862,
+    "stock": 32,
+    "status": "Tersedia"
+  },
+  {
+    "id": 34,
+    "name": "Sabun Bayi 62",
+    "category": "Perawatan",
+    "price": 392872,
+    "stock": 80,
+    "status": "Tersedia"
+  },
+  {
+    "id": 35,
+    "name": "Tisu Basah 78",
+    "category": "Perawatan",
+    "price": 125067,
+    "stock": 44,
+    "status": "Tersedia"
+  },
+  {
+    "id": 36,
+    "name": "Kereta Dorong 7",
+    "category": "Perawatan",
+    "price": 121585,
+    "stock": 1,
+    "status": "Tersedia"
+  },
+  {
+    "id": 37,
+    "name": "Gendongan Bayi 43",
+    "category": "Makanan",
+    "price": 73952,
+    "stock": 68,
+    "status": "Tersedia"
+  },
+  {
+    "id": 38,
+    "name": "Baby Oil 75",
+    "category": "Makanan",
+    "price": 407951,
+    "stock": 69,
+    "status": "Tersedia"
+  },
+  {
+    "id": 39,
+    "name": "Kereta Dorong 100",
+    "category": "Makanan",
+    "price": 20851,
+    "stock": 32,
+    "status": "Tersedia"
+  },
+  {
+    "id": 40,
+    "name": "Baby Oil 64",
+    "category": "Pakaian",
+    "price": 462250,
+    "stock": 63,
+    "status": "Tersedia"
+  },
+  {
+    "id": 41,
+    "name": "Mainan Edukatif 86",
+    "category": "Perlengkapan",
+    "price": 30157,
+    "stock": 47,
+    "status": "Tersedia"
+  },
+  {
+    "id": 42,
+    "name": "Box Bayi 70",
+    "category": "Makanan",
+    "price": 231652,
+    "stock": 28,
+    "status": "Tersedia"
+  },
+  {
+    "id": 43,
+    "name": "Perlak 14",
+    "category": "Makanan",
+    "price": 369235,
+    "stock": 93,
+    "status": "Tersedia"
+  },
+  {
+    "id": 44,
+    "name": "Mainan Edukatif 46",
+    "category": "Makanan",
+    "price": 123750,
+    "stock": 29,
+    "status": "Tersedia"
+  },
+  {
+    "id": 45,
+    "name": "Botol Susu 74",
+    "category": "Mainan",
+    "price": 359827,
+    "stock": 42,
+    "status": "Tersedia"
+  },
+  {
+    "id": 46,
+    "name": "Baby Oil 39",
+    "category": "Perawatan",
+    "price": 311259,
+    "stock": 72,
+    "status": "Tersedia"
+  },
+  {
+    "id": 47,
+    "name": "Box Bayi 18",
+    "category": "Pakaian",
+    "price": 79980,
+    "stock": 37,
+    "status": "Tersedia"
+  },
+  {
+    "id": 48,
+    "name": "Mainan Edukatif 76",
+    "category": "Perawatan",
+    "price": 167907,
+    "stock": 80,
+    "status": "Tersedia"
+  },
+  {
+    "id": 49,
+    "name": "Baju Bayi 70",
+    "category": "Perlengkapan",
+    "price": 72263,
+    "stock": 40,
+    "status": "Tersedia"
+  },
+  {
+    "id": 50,
+    "name": "Tisu Basah 6",
+    "category": "Pakaian",
+    "price": 97838,
+    "stock": 38,
+    "status": "Tersedia"
+  }
+]

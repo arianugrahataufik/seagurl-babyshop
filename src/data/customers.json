@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "name": "Yuni Gunawan",
+    "email": "yuni.gunawan@example.com",
+    "phone": "08370833099",
+    "status": "Active"
+  },
+  {
+    "id": 2,
+    "name": "Arif Kusuma",
+    "email": "arif.kusuma@example.com",
+    "phone": "08523301406",
+    "status": "Active"
+  },
+  {
+    "id": 3,
+    "name": "Yuni Herlina",
+    "email": "yuni.herlina@example.com",
+    "phone": "08722340820",
+    "status": "Active"
+  },
+  {
+    "id": 4,
+    "name": "Lina Ramadhan",
+    "email": "lina.ramadhan@example.com",
+    "phone": "08997067603",
+    "status": "Active"
+  },
+  {
+    "id": 5,
+    "name": "Dewi Hidayat",
+    "email": "dewi.hidayat@example.com",
+    "phone": "08295303754",
+    "status": "Active"
+  },
+  {
+    "id": 6,
+    "name": "Siti Ramadhan",
+    "email": "siti.ramadhan@example.com",
+    "phone": "08647649703",
+    "status": "Active"
+  },
+  {
+    "id": 7,
+    "name": "Rani Gunawan",
+    "email": "rani.gunawan@example.com",
+    "phone": "08815316320",
+    "status": "Active"
+  },
+  {
+    "id": 8,
+    "name": "Rani Nuraini",
+    "email": "rani.nuraini@example.com",
+    "phone": "08660215948",
+    "status": "Active"
+  },
+  {
+    "id": 9,
+    "name": "Maya Gunawan",
+    "email": "maya.gunawan@example.com",
+    "phone": "08388010949",
+    "status": "Active"
+  },
+  {
+    "id": 10,
+    "name": "Dian Prasetyo",
+    "email": "dian.prasetyo@example.com",
+    "phone": "08127782424",
+    "status": "Inactive"
+  },
+  {
+    "id": 11,
+    "name": "Dian Herlina",
+    "email": "dian.herlina@example.com",
+    "phone": "08901403732",
+    "status": "Active"
+  },
+  {
+    "id": 12,
+    "name": "Rina Ramadhan",
+    "email": "rina.ramadhan@example.com",
+    "phone": "08184567577",
+    "status": "Inactive"
+  },
+  {
+    "id": 13,
+    "name": "Arif Wibowo",
+    "email": "arif.wibowo@example.com",
+    "phone": "08420938528",
+    "status": "Active"
+  },
+  {
+    "id": 14,
+    "name": "Rani Syahputra",
+    "email": "rani.syahputra@example.com",
+    "phone": "08589183018",
+    "status": "Inactive"
+  },
+  {
+    "id": 15,
+    "name": "Budi Permata",
+    "email": "budi.permata@example.com",
+    "phone": "08662654279",
+    "status": "Active"
+  },
+  {
+    "id": 16,
+    "name": "Rani Ramadhan",
+    "email": "rani.ramadhan@example.com",
+    "phone": "08330834102",
+    "status": "Active"
+  },
+  {
+    "id": 17,
+    "name": "Dian Santoso",
+    "email": "dian.santoso@example.com",
+    "phone": "08148653967",
+    "status": "Active"
+  },
+  {
+    "id": 18,
+    "name": "Fajar Santoso",
+    "email": "fajar.santoso@example.com",
+    "phone": "08788203908",
+    "status": "Active"
+  },
+  {
+    "id": 19,
+    "name": "Siti Herlina",
+    "email": "siti.herlina@example.com",
+    "phone": "08830581293",
+    "status": "Inactive"
+  },
+  {
+    "id": 20,
+    "name": "Yuni Utami",
+    "email": "yuni.utami@example.com",
+    "phone": "08220784641",
+    "status": "Inactive"
+  },
+  {
+    "id": 21,
+    "name": "Lina Syahputra",
+    "email": "lina.syahputra@example.com",
+    "phone": "08898841529",
+    "status": "Inactive"
+  },
+  {
+    "id": 22,
+    "name": "Rina Aisyah",
+    "email": "rina.aisyah@example.com",
+    "phone": "08720257620",
+    "status": "Active"
+  },
+  {
+    "id": 23,
+    "name": "Dian Gunawan",
+    "email": "dian.gunawan@example.com",
+    "phone": "08588045200",
+    "status": "Inactive"
+  },
+  {
+    "id": 24,
+    "name": "Joko Putri",
+    "email": "joko.putri@example.com",
+    "phone": "08364154877",
+    "status": "Active"
+  },
+  {
+    "id": 25,
+    "name": "Agus Nuraini",
+    "email": "agus.nuraini@example.com",
+    "phone": "08444313799",
+    "status": "Inactive"
+  },
+  {
+    "id": 26,
+    "name": "Budi Utami",
+    "email": "budi.utami@example.com",
+    "phone": "08296207923",
+    "status": "Active"
+  },
+  {
+    "id": 27,
+    "name": "Andi Hidayat",
+    "email": "andi.hidayat@example.com",
+    "phone": "08567767218",
+    "status": "Active"
+  },
+  {
+    "id": 28,
+    "name": "Rizky Aisyah",
+    "email": "rizky.aisyah@example.com",
+    "phone": "08133742638",
+    "status": "Active"
+  },
+  {
+    "id": 29,
+    "name": "Arif Kusuma",
+    "email": "arif.kusuma@example.com",
+    "phone": "08276144298",
+    "status": "Active"
+  },
+  {
+    "id": 30,
+    "name": "Rizky Kusuma",
+    "email": "rizky.kusuma@example.com",
+    "phone": "08187661066",
+    "status": "Active"
+  },
+  {
+    "id": 31,
+    "name": "Yuni Santoso",
+    "email": "yuni.santoso@example.com",
+    "phone": "08451666121",
+    "status": "Active"
+  },
+  {
+    "id": 32,
+    "name": "Budi Kusuma",
+    "email": "budi.kusuma@example.com",
+    "phone": "08612923649",
+    "status": "Active"
+  },
+  {
+    "id": 33,
+    "name": "Dian Syahputra",
+    "email": "dian.syahputra@example.com",
+    "phone": "08714433862",
+    "status": "Active"
+  },
+  {
+    "id": 34,
+    "name": "Andi Ramadhan",
+    "email": "andi.ramadhan@example.com",
+    "phone": "08806015712",
+    "status": "Active"
+  },
+  {
+    "id": 35,
+    "name": "Rani Aisyah",
+    "email": "rani.aisyah@example.com",
+    "phone": "08997002133",
+    "status": "Active"
+  },
+  {
+    "id": 36,
+    "name": "Rina Santoso",
+    "email": "rina.santoso@example.com",
+    "phone": "08517663921",
+    "status": "Active"
+  },
+  {
+    "id": 37,
+    "name": "Dewi Nuraini",
+    "email": "dewi.nuraini@example.com",
+    "phone": "08187721973",
+    "status": "Active"
+  },
+  {
+    "id": 38,
+    "name": "Rizky Syahputra",
+    "email": "rizky.syahputra@example.com",
+    "phone": "08223461570",
+    "status": "Active"
+  },
+  {
+    "id": 39,
+    "name": "Dian Putri",
+    "email": "dian.putri@example.com",
+    "phone": "08339284206",
+    "status": "Active"
+  },
+  {
+    "id": 40,
+    "name": "Arif Herlina",
+    "email": "arif.herlina@example.com",
+    "phone": "08814064233",
+    "status": "Active"
+  },
+  {
+    "id": 41,
+    "name": "Rani Putri",
+    "email": "rani.putri@example.com",
+    "phone": "08514710073",
+    "status": "Active"
+  },
+  {
+    "id": 42,
+    "name": "Rani Nuraini",
+    "email": "rani.nuraini@example.com",
+    "phone": "08256694954",
+    "status": "Active"
+  },
+  {
+    "id": 43,
+    "name": "Agus Putri",
+    "email": "agus.putri@example.com",
+    "phone": "08956723036",
+    "status": "Active"
+  },
+  {
+    "id": 44,
+    "name": "Andi Prasetyo",
+    "email": "andi.prasetyo@example.com",
+    "phone": "08509451482",
+    "status": "Inactive"
+  },
+  {
+    "id": 45,
+    "name": "Dewi Nuraini",
+    "email": "dewi.nuraini@example.com",
+    "phone": "08301736706",
+    "status": "Active"
+  },
+  {
+    "id": 46,
+    "name": "Rani Nuraini",
+    "email": "rani.nuraini@example.com",
+    "phone": "08169192821",
+    "status": "Active"
+  },
+  {
+    "id": 47,
+    "name": "Rizky Saputra",
+    "email": "rizky.saputra@example.com",
+    "phone": "08834294788",
+    "status": "Inactive"
+  },
+  {
+    "id": 48,
+    "name": "Arif Gunawan",
+    "email": "arif.gunawan@example.com",
+    "phone": "08979887398",
+    "status": "Active"
+  },
+  {
+    "id": 49,
+    "name": "Agus Utami",
+    "email": "agus.utami@example.com",
+    "phone": "08767458029",
+    "status": "Inactive"
+  },
+  {
+    "id": 50,
+    "name": "Joko Permata",
+    "email": "joko.permata@example.com",
+    "phone": "08504827378",
+    "status": "Active"
+  }
+]

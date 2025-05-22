@@ -1,0 +1,422 @@
+[
+    {
+      "id": 1,
+      "name": "Stroller Bayi Deluxe",
+      "category": "Stroller",
+      "price": 1500000,
+      "description": "Stroller lipat ringan dengan 3 posisi rebahan.",
+      "image": "/img/produk/stroller-bayi.jpg",
+      "manufacturer": {
+        "brand": "BabyJoy",
+        "country": "Jepang"
+      },
+      "stock": {
+        "available": 12,
+        "warehouse": "Gudang A"
+      },
+      "specs": {
+        "weight": "6 kg",
+        "color": "Abu-abu",
+        "material": "Aluminium"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bouncer Musik Getar",
+      "category": "Mainan",
+      "price": 450000,
+      "description": "Bouncer bayi dengan fitur getar dan musik.",
+      "image": "/img/produk/bouncer-musik-getar.jpeg",
+      "manufacturer": {
+        "brand": "TinyTots",
+        "country": "Korea"
+      },
+      "stock": {
+        "available": 8,
+        "warehouse": "Gudang B"
+      },
+      "specs": {
+        "weight": "3 kg",
+        "color": "Biru",
+        "material": "Plastik & Kain"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Box Bayi Kayu",
+      "category": "Tempat Tidur",
+      "price": 2000000,
+      "description": "Box bayi klasik dari kayu jati dengan roda.",
+      "image": "/img/produk/box-bayi-kayu.jpg",
+      "manufacturer": {
+        "brand": "SweetDream",
+        "country": "Indonesia"
+      },
+      "stock": {
+        "available": 5,
+        "warehouse": "Gudang C"
+      },
+      "specs": {
+        "weight": "15 kg",
+        "color": "Coklat",
+        "material": "Kayu Jati"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Paket Perlengkapan Mandi Bayi",
+      "category": "Perawatan",
+      "price": 175000,
+      "description": "Sabun, shampoo, waslap dan handuk lucu.",
+      "image": "/img/produk/perlengkapan-mandi.jpeg",
+      "manufacturer": {
+        "brand": "BabyCare",
+        "country": "Malaysia"
+      },
+      "stock": {
+        "available": 25,
+        "warehouse": "Gudang A"
+      },
+      "specs": {
+        "weight": "1.2 kg",
+        "color": "Campur",
+        "material": "Organik"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Car Seat Bayi",
+      "category": "Aksesoris Mobil",
+      "price": 950000,
+      "description": "Tempat duduk bayi untuk keamanan di mobil.",
+      "image": "/img/produk/car-seat-bayi.jpeg",
+      "manufacturer": {
+        "brand": "SafetyFirst",
+        "country": "Amerika"
+      },
+      "stock": {
+        "available": 10,
+        "warehouse": "Gudang B"
+      },
+      "specs": {
+        "weight": "7 kg",
+        "color": "Hitam Merah",
+        "material": "Plastik & Busa"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Pakaian Bayi Newborn",
+      "category": "Pakaian",
+      "price": 99000,
+      "description": "Set baju bayi baru lahir isi 5 pcs.",
+      "image": "/img/produk/pakaian-bayi-newborn.jpeg",
+      "manufacturer": {
+        "brand": "LittleWear",
+        "country": "Vietnam"
+      },
+      "stock": {
+        "available": 30,
+        "warehouse": "Gudang C"
+      },
+      "specs": {
+        "weight": "500 gram",
+        "color": "Putih, Biru, Pink",
+        "material": "Katun Lembut"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Pompa ASI Elektrik",
+      "category": "Perawatan",
+      "price": 675000,
+      "description": "Pompa ASI otomatis 2 mode dengan layar LCD.",
+      "image": "/img/produk/pompa-asi-elektrik.jpeg",
+      "manufacturer": {
+        "brand": "MamaPump",
+        "country": "Cina"
+      },
+      "stock": {
+        "available": 9,
+        "warehouse": "Gudang A"
+      },
+      "specs": {
+        "weight": "2 kg",
+        "color": "Putih",
+        "material": "Plastik BPA-Free"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Mainan Edukasi Bentuk",
+      "category": "Mainan",
+      "price": 125000,
+      "description": "Mainan edukatif untuk mengenal bentuk & warna.",
+      "image": "/img/produk/mainan-edukasi.jpeg",
+      "manufacturer": {
+        "brand": "EduBaby",
+        "country": "Thailand"
+      },
+      "stock": {
+        "available": 20,
+        "warehouse": "Gudang B"
+      },
+      "specs": {
+        "weight": "1 kg",
+        "color": "Warna-warni",
+        "material": "Kayu Aman"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Tatakan Ganti Popok",
+      "category": "Perawatan",
+      "price": 85000,
+      "description": "Tatakan ganti popok portabel & waterproof.",
+      "image": "/img/produk/tatakan-popok.jpeg",
+      "manufacturer": {
+        "brand": "QuickChange",
+        "country": "Singapura"
+      },
+      "stock": {
+        "available": 18,
+        "warehouse": "Gudang C"
+      },
+      "specs": {
+        "weight": "600 gram",
+        "color": "Abu Muda",
+        "material": "Vinyl"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Sterilizer Botol",
+      "category": "Peralatan Makan",
+      "price": 350000,
+      "description": "Sterilizer botol bayi elektrik 6 slot.",
+      "image": "/img/produk/sterilizer-botol.jpeg",
+      "manufacturer": {
+        "brand": "CleanBaby",
+        "country": "Taiwan"
+      },
+      "stock": {
+        "available": 6,
+        "warehouse": "Gudang B"
+      },
+      "specs": {
+        "weight": "3.5 kg",
+        "color": "Putih",
+        "material": "Plastik Anti Panas"
+      }
+    },
+    {
+        "id": 11,
+        "name": "Set Makan Bayi 5-in-1",
+        "category": "Peralatan Makan",
+        "price": 199000,
+        "description": "Set mangkuk, sendok, garpu, gelas & alas makan.",
+        "image": "/img/produk/set-makan-bayi.jpeg",
+        "manufacturer": {
+          "brand": "TinyMeal",
+          "country": "Malaysia"
+        },
+        "stock": {
+          "available": 14,
+          "warehouse": "Gudang A"
+        },
+        "specs": {
+          "weight": "900 gram",
+          "color": "Pink",
+          "material": "Silikon Food Grade"
+        }
+      },
+      {
+        "id": 12,
+        "name": "Termometer Digital Bayi",
+        "category": "Kesehatan",
+        "price": 120000,
+        "description": "Termometer cepat dan akurat, cocok untuk bayi.",
+        "image": "/img/produk/termometer-bayi.jpg",
+        "manufacturer": {
+          "brand": "HealthCare",
+          "country": "Jerman"
+        },
+        "stock": {
+          "available": 11,
+          "warehouse": "Gudang B"
+        },
+        "specs": {
+          "weight": "300 gram",
+          "color": "Putih",
+          "material": "Plastik"
+        }
+      },
+      {
+        "id": 13,
+        "name": "Tisu Basah Organik",
+        "category": "Perawatan",
+        "price": 35000,
+        "description": "Tisu basah tanpa alkohol, lembut di kulit bayi.",
+        "image": "/img/produk/tisu-basah.jpeg",
+        "manufacturer": {
+          "brand": "BabyWipe",
+          "country": "Indonesia"
+        },
+        "stock": {
+          "available": 50,
+          "warehouse": "Gudang A"
+        },
+        "specs": {
+          "weight": "250 gram",
+          "color": "Putih",
+          "material": "Kain Basah"
+        }
+      },
+      {
+        "id": 14,
+        "name": "Gendongan Bayi Depan",
+        "category": "Gendongan",
+        "price": 275000,
+        "description": "Gendongan depan ergonomis, nyaman dan kuat.",
+        "image": "/img/produk/gendongan-bayi-depan.jpg",
+        "manufacturer": {
+          "brand": "ErgoBaby",
+          "country": "Korea"
+        },
+        "stock": {
+          "available": 7,
+          "warehouse": "Gudang B"
+        },
+        "specs": {
+          "weight": "1.5 kg",
+          "color": "Abu Gelap",
+          "material": "Kanvas Lembut"
+        }
+      },
+      {
+        "id": 15,
+        "name": "Playmat Bayi Puzzle",
+        "category": "Mainan",
+        "price": 185000,
+        "description": "Karpet puzzle aman dan berwarna-warni.",
+        "image": "/img/produk/playmat-bayi-puzzle.jpg",
+        "manufacturer": {
+          "brand": "ColorStep",
+          "country": "Thailand"
+        },
+        "stock": {
+          "available": 16,
+          "warehouse": "Gudang C"
+        },
+        "specs": {
+          "weight": "2.5 kg",
+          "color": "Warna-warni",
+          "material": "Eva Foam"
+        }
+      },
+      {
+        "id": 16,
+        "name": "Tas Popok Multifungsi",
+        "category": "Aksesoris",
+        "price": 230000,
+        "description": "Tas besar untuk perlengkapan bayi & popok.",
+        "image": "/img/produk/tas-popok-multifungsi.jpeg",
+        "manufacturer": {
+          "brand": "MamaBag",
+          "country": "Vietnam"
+        },
+        "stock": {
+          "available": 9,
+          "warehouse": "Gudang A"
+        },
+        "specs": {
+          "weight": "1.8 kg",
+          "color": "Hitam Abu",
+          "material": "Polyester Anti Air"
+        }
+      },
+      {
+        "id": 17,
+        "name": "Baby Monitor Kamera",
+        "category": "Elektronik",
+        "price": 1250000,
+        "description": "Monitor kamera nirkabel dengan night vision.",
+        "image": "/img/produk/baby-monitor-camera.jpeg",
+        "manufacturer": {
+          "brand": "SafeVision",
+          "country": "Amerika"
+        },
+        "stock": {
+          "available": 4,
+          "warehouse": "Gudang B"
+        },
+        "specs": {
+          "weight": "2.2 kg",
+          "color": "Putih",
+          "material": "Plastik"
+        }
+      },
+      {
+        "id": 18,
+        "name": "Krim Ruam Popok",
+        "category": "Perawatan",
+        "price": 48000,
+        "description": "Melindungi kulit bayi dari iritasi popok.",
+        "image": "/img/produk/krim-ruam-popok.jpeg",
+        "manufacturer": {
+          "brand": "BalmBaby",
+          "country": "Jepang"
+        },
+        "stock": {
+          "available": 33,
+          "warehouse": "Gudang A"
+        },
+        "specs": {
+          "weight": "150 gram",
+          "color": "Putih",
+          "material": "Krim Organik"
+        }
+      },
+      {
+        "id": 19,
+        "name": "Alat Potong Kuku Bayi",
+        "category": "Perawatan",
+        "price": 39000,
+        "description": "Pemotong kuku mini untuk bayi, aman dan presisi.",
+        "image": "/img/produk/potong-kuku-bayi.jpg",
+        "manufacturer": {
+          "brand": "SafeTrim",
+          "country": "Cina"
+        },
+        "stock": {
+          "available": 21,
+          "warehouse": "Gudang C"
+        },
+        "specs": {
+          "weight": "100 gram",
+          "color": "Biru Muda",
+          "material": "Plastik & Stainless"
+        }
+      },
+      {
+        "id": 20,
+        "name": "Selimut Bayi Lembut",
+        "category": "Pakaian",
+        "price": 89000,
+        "description": "Selimut hangat dan lembut dengan motif lucu.",
+        "image": "/img/produk/selimut-bayi.jpeg",
+        "manufacturer": {
+          "brand": "SnugBaby",
+          "country": "Indonesia"
+        },
+        "stock": {
+          "available": 17,
+          "warehouse": "Gudang A"
+        },
+        "specs": {
+          "weight": "700 gram",
+          "color": "Putih Polos",
+          "material": "Fleece Lembut"
+        }
+      }
+    ]
