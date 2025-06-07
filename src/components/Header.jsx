@@ -27,9 +27,9 @@ export default function Header() {
         {/* Profile Info */}
         <div className="flex items-center bg-white rounded-full px-2 py-1 pr-3 shadow-sm">
           <img
-            src="https://i.pravatar.cc/300"
+            src="/img/profile/user1.jpg"
             alt="User"
-            className="w-8 h-8 rounded-full mr-2"
+            className="w-8 h-8 rounded-full object-cover mr-2"
           />
           <div className="text-left">
             <p className="text-sm font-semibold text-black leading-tight mb-1.5">
