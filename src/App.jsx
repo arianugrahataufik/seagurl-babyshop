@@ -1,9 +1,9 @@
 import React, { Suspense } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Routes, Route } from "react-router-dom";
 
 // Lazy-loaded pages and layouts
 const Dashboard = React.lazy(() => import("./pages/Dashboard"));
-const Product = React.lazy(() => import("./pages/Product"));
+const Products = React.lazy(() => import("./pages/Products"));
 const Customer = React.lazy(() => import("./pages/Customer"));
 const Setting = React.lazy(() => import("./pages/Setting"));
 const ErrorPages = React.lazy(() => import("./pages/ErrorPages"));
@@ -15,7 +15,7 @@ const Register = React.lazy(() => import("./pages/auth/Register"));
 const Forgot = React.lazy(() => import("./pages/auth/Forgot"));
 
 import "./assets/tailwind.css";
-import Loading from "./components/Loading";
+const Loading = React.lazy(() => import("./components/Loading"));
 
 function App() {
   return (
@@ -34,7 +34,7 @@ function App() {
         <Route path="/403" element={<ErrorPages code={403} />} />
 
         <Route path="/" element={<Dashboard />} />
-        <Route path="/product" element={<Product />} />
+        <Route path="/product" element={<Products />} />
         <Route path="/customer" element={<Customer />} />
         <Route path="/setting" element={<Setting />} />
       </Route>

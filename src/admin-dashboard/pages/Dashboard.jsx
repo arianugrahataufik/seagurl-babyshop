@@ -1,6 +1,6 @@
 import { FaShoppingCart, FaTruck, FaBan, FaDollarSign } from "react-icons/fa";
 import PageHeader from "../components/PageHeader";
-import Banner from "../../pertemuan-5/components/Banner";
+import Banner from "../components/Banner";
 import Summary from "../components/Summary";
 
 export default function Dashboard() {
