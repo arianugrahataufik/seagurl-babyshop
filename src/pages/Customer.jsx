@@ -6,11 +6,13 @@ import FilterDropdown from "../components/FilterDropdown";
 import Pagination from "../components/Pagination";
 import customersData from "../data/customers.json";
 import Breadcrumb from "../components/Breadcrumb";
+import { Navigate, useNavigate } from "react-router-dom";
 
 export default function Customer() {
   const [customers, setCustomers] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
+  const navigate = useNavigate();
 
   useEffect(() => {
     setCustomers(customersData);
@@ -49,6 +51,7 @@ export default function Customer() {
               <tr
                 key={customer.id}
                 className="border-b hover:bg-kuning/10 transition font-poppins"
+                onClick={() => navigate(`/customer/${customer.id}`)}
               >
                 <td className="py-2 px-4">{(currentPage - 1) * itemsPerPage + index + 1}</td>
                 <td className="py-2 px-4">{customer.name}</td>

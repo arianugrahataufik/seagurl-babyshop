@@ -1,10 +1,12 @@
 import React, { Suspense } from "react";
-import { BrowserRouter as Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Lazy-loaded pages and layouts
 const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 const Products = React.lazy(() => import("./pages/Products"));
+const ProductDetail = React.lazy(() => import("./pages/ProductDetail"));
 const Customer = React.lazy(() => import("./pages/Customer"));
+const CustomerDetail = React.lazy(() => import("./pages/CustomerDetail"));
 const Setting = React.lazy(() => import("./pages/Setting"));
 const ErrorPages = React.lazy(() => import("./pages/ErrorPages"));
 
@@ -35,7 +37,9 @@ function App() {
 
         <Route path="/" element={<Dashboard />} />
         <Route path="/product" element={<Products />} />
+        <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="/customer" element={<Customer />} />
+        <Route path="/customer/:id" element={<CustomerDetail />} />
         <Route path="/setting" element={<Setting />} />
       </Route>
 

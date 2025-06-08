@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Perlak 83",
+    "name": "Perlak",
     "category": "Makanan",
     "price": 286522,
     "stock": 82,
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "name": "Susu Formula 62",
+    "name": "Susu Formula",
     "category": "Mainan",
     "price": 126764,
     "stock": 40,
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "name": "Selimut Bayi 17",
+    "name": "Selimut Bayi",
     "category": "Mainan",
     "price": 152956,
     "stock": 100,
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "name": "Kereta Dorong 18",
+    "name": "Kereta Dorong",
     "category": "Pakaian",
     "price": 253874,
     "stock": 78,
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "name": "Gendongan Bayi 89",
+    "name": "Gendongan Bayi",
     "category": "Perlengkapan",
     "price": 202763,
     "stock": 34,
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "name": "Baju Bayi 5",
+    "name": "Baju Bayi",
     "category": "Makanan",
     "price": 440008,
     "stock": 10,
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "name": "Botol Susu 64",
+    "name": "Botol Susu",
     "category": "Perawatan",
     "price": 388389,
     "stock": 36,
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "name": "Tisu Basah 71",
+    "name": "Tisu Basah",
     "category": "Perlengkapan",
     "price": 321153,
     "stock": 11,
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "name": "Mainan Edukatif 65",
+    "name": "Mainan Edukatif",
     "category": "Pakaian",
     "price": 376501,
     "stock": 19,
@@ -73,7 +73,7 @@
   },
   {
     "id": 10,
-    "name": "Tempat Makan Bayi 64",
+    "name": "Tempat Makan Bayi",
     "category": "Makanan",
     "price": 292435,
     "stock": 11,
@@ -81,7 +81,7 @@
   },
   {
     "id": 11,
-    "name": "Baju Bayi 88",
+    "name": "Baju Bayi",
     "category": "Perlengkapan",
     "price": 287972,
     "stock": 56,
@@ -89,7 +89,7 @@
   },
   {
     "id": 12,
-    "name": "Tisu Basah 79",
+    "name": "Tisu Basah",
     "category": "Perlengkapan",
     "price": 126615,
     "stock": 86,
@@ -97,7 +97,7 @@
   },
   {
     "id": 13,
-    "name": "Botol Susu 48",
+    "name": "Botol Susu",
     "category": "Mainan",
     "price": 85348,
     "stock": 95,
@@ -105,7 +105,7 @@
   },
   {
     "id": 14,
-    "name": "Shampoo Bayi 100",
+    "name": "Shampoo Bayi",
     "category": "Perlengkapan",
     "price": 487901,
     "stock": 65,
@@ -113,7 +113,7 @@
   },
   {
     "id": 15,
-    "name": "Selimut Bayi 68",
+    "name": "Selimut Bayi",
     "category": "Makanan",
     "price": 340812,
     "stock": 3,
@@ -121,7 +121,7 @@
   },
   {
     "id": 16,
-    "name": "Kereta Dorong 22",
+    "name": "Kereta Dorong",
     "category": "Perawatan",
     "price": 65954,
     "stock": 57,
@@ -129,7 +129,7 @@
   },
   {
     "id": 17,
-    "name": "Mainan Edukatif 57",
+    "name": "Mainan Edukatif",
     "category": "Perawatan",
     "price": 94815,
     "stock": 63,
@@ -137,7 +137,7 @@
   },
   {
     "id": 18,
-    "name": "Perlak 63",
+    "name": "Perlak",
     "category": "Perlengkapan",
     "price": 75555,
     "stock": 49,
@@ -145,7 +145,7 @@
   },
   {
     "id": 19,
-    "name": "Mainan Edukatif 26",
+    "name": "Mainan Edukatif",
     "category": "Pakaian",
     "price": 418050,
     "stock": 30,
@@ -153,7 +153,7 @@
   },
   {
     "id": 20,
-    "name": "Susu Formula 73",
+    "name": "Susu Formula",
     "category": "Mainan",
     "price": 342187,
     "stock": 73,
@@ -161,7 +161,7 @@
   },
   {
     "id": 21,
-    "name": "Tisu Basah 21",
+    "name": "Tisu Basah",
     "category": "Makanan",
     "price": 208885,
     "stock": 88,
@@ -169,7 +169,7 @@
   },
   {
     "id": 22,
-    "name": "Botol Susu 43",
+    "name": "Botol Susu",
     "category": "Perawatan",
     "price": 110025,
     "stock": 28,
@@ -177,7 +177,7 @@
   },
   {
     "id": 23,
-    "name": "Botol Susu 12",
+    "name": "Botol Susu",
     "category": "Perlengkapan",
     "price": 426885,
     "stock": 93,
@@ -185,7 +185,7 @@
   },
   {
     "id": 24,
-    "name": "Baby Oil 12",
+    "name": "Baby Oil",
     "category": "Perlengkapan",
     "price": 320959,
     "stock": 21,
@@ -193,7 +193,7 @@
   },
   {
     "id": 25,
-    "name": "Tisu Basah 13",
+    "name": "Tisu Basah",
     "category": "Perawatan",
     "price": 103081,
     "stock": 42,
@@ -201,7 +201,7 @@
   },
   {
     "id": 26,
-    "name": "Baju Bayi 49",
+    "name": "Baju Bayi",
     "category": "Pakaian",
     "price": 55657,
     "stock": 71,
@@ -209,7 +209,7 @@
   },
   {
     "id": 27,
-    "name": "Mainan Edukatif 94",
+    "name": "Mainan Edukatif",
     "category": "Pakaian",
     "price": 62353,
     "stock": 44,
@@ -217,7 +217,7 @@
   },
   {
     "id": 28,
-    "name": "Kereta Dorong 62",
+    "name": "Kereta Dorong",
     "category": "Pakaian",
     "price": 452555,
     "stock": 43,
@@ -225,7 +225,7 @@
   },
   {
     "id": 29,
-    "name": "Mainan Edukatif 18",
+    "name": "Mainan Edukatif",
     "category": "Pakaian",
     "price": 412428,
     "stock": 23,
@@ -233,7 +233,7 @@
   },
   {
     "id": 30,
-    "name": "Popok Bayi 32",
+    "name": "Popok Bayi",
     "category": "Makanan",
     "price": 44614,
     "stock": 22,
@@ -241,7 +241,7 @@
   },
   {
     "id": 31,
-    "name": "Tisu Basah 80",
+    "name": "Tisu Basah",
     "category": "Mainan",
     "price": 231202,
     "stock": 5,
@@ -249,7 +249,7 @@
   },
   {
     "id": 32,
-    "name": "Kereta Dorong 63",
+    "name": "Kereta Dorong",
     "category": "Perlengkapan",
     "price": 330710,
     "stock": 73,
@@ -257,7 +257,7 @@
   },
   {
     "id": 33,
-    "name": "Mainan Edukatif 47",
+    "name": "Mainan Edukatif",
     "category": "Makanan",
     "price": 37862,
     "stock": 32,
@@ -265,7 +265,7 @@
   },
   {
     "id": 34,
-    "name": "Sabun Bayi 62",
+    "name": "Sabun Bayi",
     "category": "Perawatan",
     "price": 392872,
     "stock": 80,
@@ -273,7 +273,7 @@
   },
   {
     "id": 35,
-    "name": "Tisu Basah 78",
+    "name": "Tisu Basah",
     "category": "Perawatan",
     "price": 125067,
     "stock": 44,
@@ -281,7 +281,7 @@
   },
   {
     "id": 36,
-    "name": "Kereta Dorong 7",
+    "name": "Kereta Dorong",
     "category": "Perawatan",
     "price": 121585,
     "stock": 1,
@@ -289,7 +289,7 @@
   },
   {
     "id": 37,
-    "name": "Gendongan Bayi 43",
+    "name": "Gendongan Bayi",
     "category": "Makanan",
     "price": 73952,
     "stock": 68,
@@ -297,7 +297,7 @@
   },
   {
     "id": 38,
-    "name": "Baby Oil 75",
+    "name": "Baby Oil",
     "category": "Makanan",
     "price": 407951,
     "stock": 69,
@@ -305,7 +305,7 @@
   },
   {
     "id": 39,
-    "name": "Kereta Dorong 100",
+    "name": "Kereta Dorong",
     "category": "Makanan",
     "price": 20851,
     "stock": 32,
@@ -313,7 +313,7 @@
   },
   {
     "id": 40,
-    "name": "Baby Oil 64",
+    "name": "Baby Oil",
     "category": "Pakaian",
     "price": 462250,
     "stock": 63,
@@ -321,7 +321,7 @@
   },
   {
     "id": 41,
-    "name": "Mainan Edukatif 86",
+    "name": "Mainan Edukatif",
     "category": "Perlengkapan",
     "price": 30157,
     "stock": 47,
@@ -329,7 +329,7 @@
   },
   {
     "id": 42,
-    "name": "Box Bayi 70",
+    "name": "Box Bayi",
     "category": "Makanan",
     "price": 231652,
     "stock": 28,
@@ -337,7 +337,7 @@
   },
   {
     "id": 43,
-    "name": "Perlak 14",
+    "name": "Perlak",
     "category": "Makanan",
     "price": 369235,
     "stock": 93,
@@ -345,7 +345,7 @@
   },
   {
     "id": 44,
-    "name": "Mainan Edukatif 46",
+    "name": "Mainan Edukatif",
     "category": "Makanan",
     "price": 123750,
     "stock": 29,
@@ -353,7 +353,7 @@
   },
   {
     "id": 45,
-    "name": "Botol Susu 74",
+    "name": "Botol Susu",
     "category": "Mainan",
     "price": 359827,
     "stock": 42,
@@ -361,7 +361,7 @@
   },
   {
     "id": 46,
-    "name": "Baby Oil 39",
+    "name": "Baby Oil",
     "category": "Perawatan",
     "price": 311259,
     "stock": 72,
@@ -369,7 +369,7 @@
   },
   {
     "id": 47,
-    "name": "Box Bayi 18",
+    "name": "Box Bayi",
     "category": "Pakaian",
     "price": 79980,
     "stock": 37,
@@ -377,7 +377,7 @@
   },
   {
     "id": 48,
-    "name": "Mainan Edukatif 76",
+    "name": "Mainan Edukatif",
     "category": "Perawatan",
     "price": 167907,
     "stock": 80,
@@ -385,7 +385,7 @@
   },
   {
     "id": 49,
-    "name": "Baju Bayi 70",
+    "name": "Baju Bayi",
     "category": "Perlengkapan",
     "price": 72263,
     "stock": 40,
@@ -393,7 +393,7 @@
   },
   {
     "id": 50,
-    "name": "Tisu Basah 6",
+    "name": "Tisu Basah",
     "category": "Pakaian",
     "price": 97838,
     "stock": 38,

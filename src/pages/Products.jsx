@@ -5,11 +5,13 @@ import FilterDropdown from "../components/FilterDropdown";
 import Pagination from "../components/Pagination";
 import productsData from "../data/products.json";
 import Breadcrumb from "../components/Breadcrumb";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Products() {
   const [products, setProducts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 10;
+  const navigate = useNavigate();
 
   useEffect(() => {
     setProducts(productsData);
@@ -49,11 +51,16 @@ export default function Products() {
               <tr
                 key={product.id}
                 className="border-b hover:bg-kuning/10 transition font-poppins"
-              >
-                <td className="py-2 px-4">{(currentPage - 1) * itemsPerPage + index + 1}</td>
+                onClick={() => navigate(`/product/${product.id}`)}
+              > 
+                <td className="py-2 px-4">
+                  {(currentPage - 1) * itemsPerPage + index + 1}
+                </td>
                 <td className="py-2 px-4">{product.name}</td>
                 <td className="py-2 px-4">{product.category}</td>
-                <td className="py-2 px-4">Rp {product.price.toLocaleString()}</td>
+                <td className="py-2 px-4">
+                  Rp {product.price.toLocaleString()}
+                </td>
                 <td className="py-2 px-4">{product.stock}</td>
                 <td className="py-2 px-4">
                   {product.status === "Tersedia" ? (
