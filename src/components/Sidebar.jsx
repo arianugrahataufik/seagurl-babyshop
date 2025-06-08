@@ -24,7 +24,7 @@ export default function Sidebar() {
     { name: "Customer", icon: <FaUsers />, to: "/customer" },
     // { name: "Tasks", icon: <FaThLarge />, to: "/tasks" },
     // { name: "Time Log", icon: <FaRegClock />, to: "/time-log" },
-    // { name: "Resource Mgmt", icon: <FaProjectDiagram />, to: "/resource" },
+    { name: "Quote of the Day", icon: <FaProjectDiagram />, to: "/quotes" },
     // { name: "Users", icon: <FaUsers />, to: "/users" },
     // { name: "Project Template", icon: <FaLayerGroup />, to: "/templates" },
     { name: "Settings", icon: <FaCog />, to: "/setting" },

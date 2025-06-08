@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaEdit, FaTrash } from "react-icons/fa";
-import SearchBar from "../components/SearchBar";
+// import SearchBar from "../components/SearchBar";
 import FilterDropdown from "../components/FilterDropdown";
 import Pagination from "../components/Pagination";
 import productsData from "../data/products.json";
@@ -28,7 +28,13 @@ export default function Products() {
       <Breadcrumb items={["Product", "Product List"]} />
 
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mt-6 gap-4">
-        <SearchBar />
+        <div className="w-full sm:w-64">
+        <input
+          type="text"
+          placeholder="search here"
+          className="w-full px-4 py-2 rounded-xl border-2 border-kuning focus:outline-none focus:ring-2 focus:ring-pink-400"
+        />
+      </div>
         <FilterDropdown />
       </div>
 
