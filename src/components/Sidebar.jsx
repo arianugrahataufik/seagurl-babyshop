@@ -22,11 +22,11 @@ export default function Sidebar() {
     { name: "Dashboard", icon: <MdDashboard />, to: "/" },
     { name: "Product", icon: <FaBox />, to: "/product" },
     { name: "Customer", icon: <FaUsers />, to: "/customer" },
-    { name: "Tasks", icon: <FaThLarge />, to: "/tasks" },
-    { name: "Time Log", icon: <FaRegClock />, to: "/time-log" },
-    { name: "Resource Mgmt", icon: <FaProjectDiagram />, to: "/resource" },
-    { name: "Users", icon: <FaUsers />, to: "/users" },
-    { name: "Project Template", icon: <FaLayerGroup />, to: "/templates" },
+    // { name: "Tasks", icon: <FaThLarge />, to: "/tasks" },
+    // { name: "Time Log", icon: <FaRegClock />, to: "/time-log" },
+    // { name: "Resource Mgmt", icon: <FaProjectDiagram />, to: "/resource" },
+    // { name: "Users", icon: <FaUsers />, to: "/users" },
+    // { name: "Project Template", icon: <FaLayerGroup />, to: "/templates" },
     { name: "Settings", icon: <FaCog />, to: "/setting" },
   ];
 
