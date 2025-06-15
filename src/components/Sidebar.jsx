@@ -9,6 +9,7 @@ import {
   FaLayerGroup,
   FaThLarge,
   FaProjectDiagram,
+  FaUserSecret,
 } from "react-icons/fa";
 import { MdDashboard } from "react-icons/md";
 import { IoMdArrowBack, IoMdArrowForward } from "react-icons/io";
@@ -25,6 +26,7 @@ export default function Sidebar() {
     // { name: "Tasks", icon: <FaThLarge />, to: "/tasks" },
     // { name: "Time Log", icon: <FaRegClock />, to: "/time-log" },
     { name: "Quote of the Day", icon: <FaProjectDiagram />, to: "/quotes" },
+    { name: "User", icon: <FaUserSecret />, to: "/user" },
     // { name: "Users", icon: <FaUsers />, to: "/users" },
     // { name: "Project Template", icon: <FaLayerGroup />, to: "/templates" },
     { name: "Settings", icon: <FaCog />, to: "/setting" },

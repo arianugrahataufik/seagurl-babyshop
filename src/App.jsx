@@ -10,6 +10,7 @@ const CustomerDetail = React.lazy(() => import("./pages/CustomerDetail"));
 const Setting = React.lazy(() => import("./pages/Setting"));
 const Quotes = React.lazy(() => import("./pages/Quotes"));
 const ErrorPages = React.lazy(() => import("./pages/ErrorPages"));
+const User = React.lazy(() => import("./pages/User"));
 
 const MainLayout = React.lazy(() => import("./layouts/MainLayout"));
 const AuthLayout = React.lazy(() => import("./layouts/AuthLayout"));
@@ -42,6 +43,7 @@ function App() {
         <Route path="/customer" element={<Customer />} />
         <Route path="/customer/:id" element={<CustomerDetail />} />
         <Route path="/quotes" element={<Quotes />} />
+        <Route path="/user" element={<User />} />
         <Route path="/setting" element={<Setting />} />
       </Route>
 
