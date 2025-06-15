@@ -13,6 +13,7 @@ import {
 } from "react-icons/fa";
 import { MdDashboard } from "react-icons/md";
 import { IoMdArrowBack, IoMdArrowForward } from "react-icons/io";
+import { FaMessage } from "react-icons/fa6";
 
 export default function Sidebar() {
   const [collapsed, setCollapsed] = useState(false);
@@ -27,6 +28,7 @@ export default function Sidebar() {
     // { name: "Time Log", icon: <FaRegClock />, to: "/time-log" },
     { name: "Quote of the Day", icon: <FaProjectDiagram />, to: "/quotes" },
     { name: "User", icon: <FaUserSecret />, to: "/user" },
+    { name: "Review", icon: <FaMessage />, to: "/review" },
     // { name: "Users", icon: <FaUsers />, to: "/users" },
     // { name: "Project Template", icon: <FaLayerGroup />, to: "/templates" },
     { name: "Settings", icon: <FaCog />, to: "/setting" },
