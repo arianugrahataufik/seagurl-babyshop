@@ -11,14 +11,18 @@ export default function Quotes() {
   useEffect(() => {
     const timeout = setTimeout(() => {
       axios
-        .get("https://api.quotable.io/random")
+        .get("https://api.adviceslip.com/advice")
         .then((response) => {
-          if (response.status !== 200 || !response.data.content) {
+          if (
+            response.status !== 200 ||
+            !response.data.slip ||
+            !response.data.slip.advice
+          ) {
             setError("Gagal mengambil kutipan");
             return;
           }
-          // Sesuaikan struktur dengan {q, a}
-          setQuote({ q: response.data.content, a: response.data.author });
+
+          setQuote({ q: response.data.slip.advice });
           setError("");
         })
         .catch((err) => {
@@ -26,8 +30,8 @@ export default function Quotes() {
         });
     }, 500); // 500ms debounce
 
-    return () => clearTimeout(timeout); // cleanup
-  }, [trigger]); // tergantung pada trigger, bukan query
+    return () => clearTimeout(timeout);
+  }, [trigger]);
 
   const handleNewQuote = () => {
     setTrigger((prev) => prev + 1); // trigger ulang useEffect
@@ -53,7 +57,7 @@ export default function Quotes() {
             <blockquote className="italic text-xl text-gray-800 mb-2">
               "{quote.q}"
             </blockquote>
-            <p className="text-md text-gray-700 font-semibold">— {quote.a}</p>
+            {/* Tidak ada author di API ini */}
           </>
         )}
       </div>
