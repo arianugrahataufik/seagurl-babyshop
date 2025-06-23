@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="flex items-center justify-between px-6 py-4 bg-[#e9dcd2] rounded-b-2xl shadow-md">
       {/* Left: Page Title */}
-      <h2 className="text-2xl font-bold text-black">Dashboard</h2>
+      <h2 className="text-2xl font-bold font-poppins text-black">Dashboard</h2>
 
       {/* Right: Search + Notifications + Profile */}
       <div className="flex items-center gap-4">

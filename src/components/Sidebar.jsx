@@ -35,7 +35,7 @@ export default function Sidebar() {
   ];
 
   const menuClass = ({ isActive }) =>
-    `flex items-center gap-3 p-3 rounded-full transition-all text-sm
+    `flex items-center gap-4 p-4 rounded-full transition-all text-sm
      ${isActive ? "bg-white text-menu font-semibold" : "hover:bg-white/20 "}
      ${collapsed ? "justify-center" : "justify-start"}`;
 
@@ -45,10 +45,10 @@ export default function Sidebar() {
       ${collapsed ? "w-20" : "w-64"} overflow-hidden`}
     >
       {/* Logo & Collapse Button */}
-      <div className={`flex items-center ${collapsed ? "justify-center" : "justify-between"} p-4`}>
+      <div className={`flex items-center ${collapsed ? "justify-center" : "justify-between"} p-6`}>
         {!collapsed && (
           <h1 className="text-white font-bold text-xl tracking-wide">
-            ANTBABYSHOP
+            LA Baby World
           </h1>
         )}
         {/* <button
@@ -62,17 +62,17 @@ export default function Sidebar() {
       {/* Create Project Button */}
       <div className="px-4 mb-6">
         <button
-          className={`flex items-center gap-2 bg-white text-black w-full py-2 rounded-full font-medium hover:bg-gray-200 transition-all
+          className={`flex items-center gap-2 bg-menu text-white w-full py-2 rounded-full font-medium hover:bg-orange-600 transition-all
             ${collapsed ? "justify-center px-0" : "justify-start px-4"}`}
         >
-          <FaPlus className="text-sm text-menu" />
-          {!collapsed && <span>Create new project</span>}
+          <FaPlus className="text-sm text-white" />
+          {!collapsed && <span>Create new</span>}
         </button>
       </div>
 
       {/* Navigation Menu */}
-      <nav className="flex-1 px-2">
-        <ul className="space-y-3">
+      <nav className="flex-1 px-4">
+        <ul className="space-y-4">
           {menuItems.map((item, i) => (
             <li key={i}>
               <NavLink to={item.to} className={menuClass}>

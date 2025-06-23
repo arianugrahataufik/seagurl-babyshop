@@ -14,7 +14,7 @@ export default function MainLayout() {
       {/* Main Content Area */}
       <div className="flex-1 flex flex-col overflow-hidden">
         {/* Header */}
-        <header className="px-6 py-4 shadow-md bg-[#f9f4f2] sticky top-0 z-10">
+        <header className="px-6 py-4 bg-[#f9f4f2] sticky top-0 z-10">
           <Header />
         </header>
 
