@@ -24,21 +24,30 @@ export default function Header() {
           <FaBell className="text-gray-600 text-sm" />
         </button>
 
-        {/* Profile Info */}
-        <div className="flex items-center bg-white rounded-full px-2 py-1 pr-3 shadow-sm">
-          <img
-            src="/img/profile/user1.jpg"
-            alt="User"
-            className="w-8 h-8 rounded-full object-cover mr-2"
-          />
-          <div className="text-left">
-            <p className="text-sm font-semibold text-black leading-tight mb-1.5">
-              Seagull Airra
-            </p>
-            <p className="text-xs text-gray-500 -mt-1">Product manager</p>
-          </div>
-          <IoMdArrowDropdown className="text-gray-500 ml-2" />
-        </div>
+        {/* Profile Info Dropdown */}
+        <details className="dropdown dropdown-end">
+          <summary className="btn p-0 bg-white border-none rounded-full shadow-sm hover:bg-white">
+            <div className="flex items-center px-2 py-1 pr-3">
+              <img
+                src="/img/profile/user1.jpg"
+                alt="User"
+                className="w-8 h-8 rounded-full object-cover mr-2"
+              />
+              <div className="text-left">
+                <p className="text-sm font-semibold text-black leading-tight mb-1.5">
+                  Seagull Airra
+                </p>
+                <p className="text-xs text-gray-500 -mt-1">Product manager</p>
+              </div>
+              <IoMdArrowDropdown className="text-gray-500 ml-2" />
+            </div>
+          </summary>
+          <ul className="menu dropdown-content bg-base-100 rounded-box w-52 mt-2 p-2 shadow z-50">
+            <li><a>Profile</a></li>
+            <li><a>Settings</a></li>
+            <li><a>Logout</a></li>
+          </ul>
+        </details>
       </div>
     </header>
   );
