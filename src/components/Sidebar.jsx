@@ -58,12 +58,12 @@ export default function Sidebar() {
       iconFill: <FaMessage />,
       to: "/review",
     },
-    {
-      name: "Settings",
-      iconOutline: <FaRegSun />,
-      iconFill: <FaCog />,
-      to: "/setting",
-    },
+    // {
+    //   name: "Settings",
+    //   iconOutline: <FaRegSun />,
+    //   iconFill: <FaCog />,
+    //   to: "/setting",
+    // },
   ];
 
   return (

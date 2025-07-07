@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { FaEdit, FaTrash } from "react-icons/fa";
-import FilterDropdown from "../components/FilterDropdown";
-import Pagination from "../components/Pagination";
-import Breadcrumb from "../components/Breadcrumb";
+import FilterDropdown from "../../components/FilterDropdown";
+import Pagination from "../../components/Pagination";
+import Breadcrumb from "../../components/Breadcrumb";
 import { useNavigate } from "react-router-dom";
-import { products as productService } from "../services/products"; // rename alias agar tidak bentrok
+import { products as productService } from "../../services/products"; // rename alias agar tidak bentrok
 
 export default function Products() {
   const [productList, setProductList] = useState([]);
@@ -30,6 +30,18 @@ export default function Products() {
     currentPage * itemsPerPage
   );
 
+  const handleDelete = async (id) => {
+    const confirm = window.confirm("Yakin ingin menghapus produk ini?");
+    if (!confirm) return;
+
+    try {
+      await productService.delete(id);
+      setProductList(productList.filter((p) => p.id !== id)); // update list
+    } catch (err) {
+      alert("Gagal menghapus produk: " + err.message);
+    }
+  };
+
   return (
     <div id="dashboard-container" className="p-6 bg-[#E8DDD3] rounded-2xl">
       <Breadcrumb items={["Product", "Product List"]} />
@@ -38,11 +50,16 @@ export default function Products() {
         <div className="w-full sm:w-64">
           <input
             type="text"
-            placeholder="search here"
+            placeholder="Search here"
             className="w-full px-4 py-2 rounded-xl border-2 border-kuning focus:outline-none focus:ring-2 focus:ring-pink-400"
           />
         </div>
-        <FilterDropdown />
+        <button
+          className="btn btn-outline btn-secondary rounded-xl"
+          onClick={() => navigate("/product/create")}
+        >
+          Tambah Produk +
+        </button>
       </div>
 
       <div className="overflow-x-auto mt-6">
@@ -51,10 +68,11 @@ export default function Products() {
             <tr>
               <th className="py-3 px-4 text-left">NO</th>
               <th className="py-3 px-4 text-left">Nama Produk</th>
-              <th className="py-3 px-4 text-left">Kategori</th>
               <th className="py-3 px-4 text-left">Harga</th>
               <th className="py-3 px-4 text-left">Stok</th>
-              <th className="py-3 px-4 text-left">Status</th>
+              <th className="py-3 px-4 text-left">Kategori</th>
+              <th className="py-3 px-4 text-left">Deskripsi</th>
+              <th className="py-3 px-4 text-left">Gambar</th>
               <th className="py-3 px-4 text-center">Aksi</th>
             </tr>
           </thead>
@@ -69,27 +87,40 @@ export default function Products() {
                   {(currentPage - 1) * itemsPerPage + index + 1}
                 </td>
                 <td className="py-2 px-4">{products.name}</td>
-                <td className="py-2 px-4">{products.category}</td>
                 <td className="py-2 px-4">
                   Rp {Number(products.price).toLocaleString()}
                 </td>
                 <td className="py-2 px-4">{products.stock}</td>
+                <td className="py-2 px-4">{products.category}</td>
+                <td className="py-2 px-4">{products.description}</td>
                 <td className="py-2 px-4">
-                  {products.status === "Tersedia" ? (
-                    <span className="bg-green-200 text-green-700 text-xs px-3 py-1 rounded-full">
-                      Tersedia
-                    </span>
+                  {products.image ? (
+                    <img
+                      src={products.image}
+                      alt={products.name}
+                      className="w-16 h-16 object-cover rounded-lg shadow"
+                    />
                   ) : (
-                    <span className="bg-red-200 text-red-700 text-xs px-3 py-1 rounded-full">
-                      Habis
-                    </span>
+                    <span className="text-gray-500 italic">No image</span>
                   )}
                 </td>
                 <td className="py-2 px-4 text-center space-x-2">
-                  <button className="text-blue-500 hover:text-blue-700">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      navigate(`/product/edit/${products.id}`);
+                    }}
+                    className="text-blue-500 hover:text-blue-700"
+                  >
                     <FaEdit />
                   </button>
-                  <button className="text-red-500 hover:text-red-700">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation(); // supaya tidak navigate ke detail
+                      handleDelete(products.id);
+                    }}
+                    className="text-red-500 hover:text-red-700"
+                  >
                     <FaTrash />
                   </button>
                 </td>

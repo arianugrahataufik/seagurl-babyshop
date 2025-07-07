@@ -3,8 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Lazy-loaded pages and layouts
 const Dashboard = React.lazy(() => import("./pages/Dashboard"));
-const Products = React.lazy(() => import("./pages/Products"));
-const ProductDetail = React.lazy(() => import("./pages/ProductDetail"));
+const Products = React.lazy(() => import("./pages/Product/Products"));
+const AddProduct = React.lazy(() => import("./pages/Product/AddProduct"));
+const EditProduct = React.lazy(() => import("./pages/Product/EditProduct"));
+const ProductDetail = React.lazy(() => import("./pages/Product/ProductDetail"));
 const Customer = React.lazy(() => import("./pages/Customer"));
 const CustomerDetail = React.lazy(() => import("./pages/CustomerDetail"));
 const Setting = React.lazy(() => import("./pages/Setting"));
@@ -41,6 +43,8 @@ function App() {
         <Route path="/" element={<Dashboard />} />
         <Route path="/product" element={<Products />} />
         <Route path="/product/:id" element={<ProductDetail />} />
+        <Route path="/product/edit/:id" element={<EditProduct />} />
+        <Route path="/product/create" element={<AddProduct />} />
         <Route path="/customer" element={<Customer />} />
         <Route path="/customer/:id" element={<CustomerDetail />} />
         <Route path="/quotes" element={<Quotes />} />
