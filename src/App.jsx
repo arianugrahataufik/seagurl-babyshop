@@ -14,6 +14,7 @@ const Quotes = React.lazy(() => import("./pages/Quotes"));
 const ErrorPages = React.lazy(() => import("./pages/ErrorPages"));
 const User = React.lazy(() => import("./pages/User"));
 const Review = React.lazy(() => import("./pages/Review"));
+const PredictBadge = React.lazy(() => import("./pages/PredictBadge"));
 
 const MainLayout = React.lazy(() => import("./layouts/MainLayout"));
 const AuthLayout = React.lazy(() => import("./layouts/AuthLayout"));
@@ -50,6 +51,7 @@ function App() {
         <Route path="/quotes" element={<Quotes />} />
         <Route path="/user" element={<User />} />
         <Route path="/review" element={<Review />} />
+        <Route path="/predict-badge" element={<PredictBadge />} />
         <Route path="/setting" element={<Setting />} />
       </Route>
 
