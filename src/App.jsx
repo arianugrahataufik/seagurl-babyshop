@@ -27,6 +27,8 @@ const Forgot = React.lazy(() => import("./pages/auth/Forgot"));
 import "./assets/tailwind.css";
 import AddCustomer from "./pages/customer/AddCustomer";
 import EditCustomer from "./pages/customer/EditCustomer";
+import Transactions from "./pages/Transaction/Transaction";
+import AddTransactions from "./pages/Transaction/AddTransaction";
 const Loading = React.lazy(() => import("./components/Loading"));
 
 function App() {
@@ -54,6 +56,8 @@ function App() {
         <Route path="/customer/:id" element={<CustomerDetail />} />
         <Route path="/customer/create" element={<AddCustomer />} />
         <Route path="/customer/edit/:id" element={<EditCustomer />} />
+        <Route path="/transaction" element={<Transactions />} />
+        <Route path="/transaction/create" element={<AddTransactions />} />
         <Route path="/quotes" element={<Quotes />} />
         <Route path="/user" element={<User />} />
         <Route path="/review" element={<Review />} />

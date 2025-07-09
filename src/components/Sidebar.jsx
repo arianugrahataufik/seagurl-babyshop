@@ -12,6 +12,7 @@ import {
   FaRegSun,
   FaPlus,
   FaUser,
+  FaDollarSign,
 } from "react-icons/fa";
 import { FaProjectDiagram } from "react-icons/fa";
 import { FaMessage, FaRegMessage } from "react-icons/fa6";
@@ -39,6 +40,12 @@ export default function Sidebar() {
       iconOutline: <FaRegUser />,
       iconFill: <FaUser />,
       to: "/customer",
+    },
+    {
+      name: "Transaksi",
+      iconOutline: <FaDollarSign />,
+      iconFill: <FaDollarSign />,
+      to: "/transaction",
     },
     // {
     //   name: "Quote of the Day",
