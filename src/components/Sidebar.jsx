@@ -1,3 +1,8 @@
+import { AiFillDollarCircle } from "react-icons/ai"; 
+import { AiOutlineDollarCircle } from "react-icons/ai"; 
+import { FaRegComment } from "react-icons/fa"; 
+import { BsFileBarGraphFill } from "react-icons/bs"; 
+import { BsFileBarGraph } from "react-icons/bs"; 
 import { RiAdminFill } from "react-icons/ri"; 
 import { RiAdminLine } from "react-icons/ri"; 
 import { BsBox2Fill } from "react-icons/bs"; 
@@ -43,8 +48,8 @@ export default function Sidebar() {
     },
     {
       name: "Transaksi",
-      iconOutline: <FaDollarSign />,
-      iconFill: <FaDollarSign />,
+      iconOutline:<AiOutlineDollarCircle /> ,
+      iconFill: <AiFillDollarCircle />,
       to: "/transaction",
     },
     // {
@@ -61,13 +66,13 @@ export default function Sidebar() {
     // },
     {
       name: "Summary",
-      iconOutline:<RiAdminLine />,
-      iconFill: <RiAdminFill />,
+      iconOutline:<BsFileBarGraph />,
+      iconFill:<BsFileBarGraphFill />,
       to: "/crm",
     },
     {
       name: "Testimoni",
-      iconOutline:<FaComment />,
+      iconOutline:<FaRegComment />,
       iconFill: <FaComment />,
       to: "/testimoni",
     },
