@@ -15,7 +15,7 @@ import {
   FaDollarSign,
 } from "react-icons/fa";
 import { FaProjectDiagram } from "react-icons/fa";
-import { FaMessage, FaRegMessage } from "react-icons/fa6";
+import { FaComment, FaMessage, FaRegMessage } from "react-icons/fa6";
 
 export default function Sidebar() {
   const [collapsed, setCollapsed] = useState(false);
@@ -64,6 +64,12 @@ export default function Sidebar() {
       iconOutline:<RiAdminLine />,
       iconFill: <RiAdminFill />,
       to: "/crm",
+    },
+    {
+      name: "Testimoni",
+      iconOutline:<FaComment />,
+      iconFill: <FaComment />,
+      to: "/testimoni",
     },
     // {
     //   name: "Review",

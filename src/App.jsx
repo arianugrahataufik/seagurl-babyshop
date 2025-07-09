@@ -6,6 +6,9 @@ const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 const Products = React.lazy(() => import("./pages/Product/Products"));
 const AddProduct = React.lazy(() => import("./pages/Product/AddProduct"));
 const EditProduct = React.lazy(() => import("./pages/Product/EditProduct"));
+const Testimonial = React.lazy(() => import("./pages/Testimoni/Testimonial"));
+const AddTestimonial = React.lazy(() => import("./pages/Testimoni/AddTestimonial"));
+const EditTestimonial = React.lazy(() => import("./pages/Testimoni/EditTestimonial"));
 const ProductDetail = React.lazy(() => import("./pages/Product/ProductDetail"));
 const Customer = React.lazy(() => import("./pages/customer/Customer"));
 const CustomerDetail = React.lazy(() => import("./pages/CustomerDetail"));
@@ -65,6 +68,9 @@ function App() {
         <Route path="/setting" element={<Setting />} />
         <Route path="/crm" element={<CRM />} />
         <Route path="/crm/edit" element={<CRMedit />} />
+        <Route path="/testimoni" element={<Testimonial />} />
+        <Route path="/testimoni/edit/:id" element={<EditTestimonial />} />
+        <Route path="/testimoni/create" element={<AddTestimonial />} />
       </Route>
 
       <Route element={<AuthLayout />}>
