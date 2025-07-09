@@ -11,7 +11,7 @@ const headers = {
 
 export const review = {
   async fetchReview() {
-    const response = await axios.get(API_URL + "?order=created_at.desc", { headers });
+    const response = await axios.get(API_URL + "?order=created_at.asc", { headers });
     return response.data;
   },
 

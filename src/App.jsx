@@ -7,7 +7,7 @@ const Products = React.lazy(() => import("./pages/Product/Products"));
 const AddProduct = React.lazy(() => import("./pages/Product/AddProduct"));
 const EditProduct = React.lazy(() => import("./pages/Product/EditProduct"));
 const ProductDetail = React.lazy(() => import("./pages/Product/ProductDetail"));
-const Customer = React.lazy(() => import("./pages/Customer"));
+const Customer = React.lazy(() => import("./pages/customer/Customer"));
 const CustomerDetail = React.lazy(() => import("./pages/CustomerDetail"));
 const Setting = React.lazy(() => import("./pages/Setting"));
 const Quotes = React.lazy(() => import("./pages/Quotes"));
@@ -25,6 +25,8 @@ const Register = React.lazy(() => import("./pages/auth/Register"));
 const Forgot = React.lazy(() => import("./pages/auth/Forgot"));
 
 import "./assets/tailwind.css";
+import AddCustomer from "./pages/customer/AddCustomer";
+import EditCustomer from "./pages/customer/EditCustomer";
 const Loading = React.lazy(() => import("./components/Loading"));
 
 function App() {
@@ -50,6 +52,8 @@ function App() {
         <Route path="/product/create" element={<AddProduct />} />
         <Route path="/customer" element={<Customer />} />
         <Route path="/customer/:id" element={<CustomerDetail />} />
+        <Route path="/customer/create" element={<AddCustomer />} />
+        <Route path="/customer/edit/:id" element={<EditCustomer />} />
         <Route path="/quotes" element={<Quotes />} />
         <Route path="/user" element={<User />} />
         <Route path="/review" element={<Review />} />

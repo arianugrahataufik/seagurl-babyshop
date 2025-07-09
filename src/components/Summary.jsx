@@ -1,4 +1,6 @@
+import { useEffect, useState } from "react";
 import { FaShoppingCart, FaBaby, FaHeart, FaStar } from "react-icons/fa";
+import { supabase } from "../services/supabase"; // pastikan path ini sesuai
 
 function SummaryCard({ icon: Icon, value, label, bgColor }) {
   return (
@@ -15,6 +17,24 @@ function SummaryCard({ icon: Icon, value, label, bgColor }) {
 }
 
 export default function Summary() {
+  const [customerCount, setCustomerCount] = useState(0);
+
+  useEffect(() => {
+    const fetchCustomerCount = async () => {
+      const { count, error } = await supabase
+        .from("customer")
+        .select("*", { count: "exact", head: true });
+
+      if (!error) {
+        setCustomerCount(count);
+      } else {
+        console.error("Gagal mengambil total customer:", error.message);
+      }
+    };
+
+    fetchCustomerCount();
+  }, []);
+
   return (
     <div
       id="dashboard-grid"
@@ -28,7 +48,7 @@ export default function Summary() {
       />
       <SummaryCard
         icon={FaBaby}
-        value="120"
+        value={customerCount}
         label="New Customers"
         bgColor="bg-blue-300"
       />
