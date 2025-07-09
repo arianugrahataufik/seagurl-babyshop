@@ -148,10 +148,13 @@ export default function Sidebar() {
       </nav>
 
       {/* Footer Button */}
-      <div className="mt-auto py-6 flex justify-center">
-        <button className="bg-menu w-10 h-10 rounded-full text-white text-lg font-bold hover:scale-105 transition">
-          ?
-        </button>
+      <div className="mt-auto py-6 flex gap-4 justify-center">
+        <a href="" target="_blank" className="bg-menu w-10 h-10 rounded-full text-white text-lg font-bold hover:scale-105 transition">
+          1
+        </a>
+        <a href="https://babyshop-app-2.vercel.app/" target="_blank" className="bg-menu w-10 h-10 rounded-full text-white text-lg font-bold hover:scale-105 transition">
+          2
+        </a>
       </div>
     </aside>
   );
