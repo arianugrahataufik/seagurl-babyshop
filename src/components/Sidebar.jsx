@@ -40,30 +40,36 @@ export default function Sidebar() {
       iconFill: <FaUser />,
       to: "/customer",
     },
+    // {
+    //   name: "Quote of the Day",
+    //   iconOutline: <FaProjectDiagram />,
+    //   iconFill: <FaProjectDiagram />, // Sama aja karena nggak ada versi outline-nya
+    //   to: "/quotes",
+    // },
+    // {
+    //   name: "User",
+    //   iconOutline:<RiAdminLine />,
+    //   iconFill: <RiAdminFill />,
+    //   to: "/user",
+    // },
     {
-      name: "Quote of the Day",
-      iconOutline: <FaProjectDiagram />,
-      iconFill: <FaProjectDiagram />, // Sama aja karena nggak ada versi outline-nya
-      to: "/quotes",
-    },
-    {
-      name: "User",
+      name: "Summary",
       iconOutline:<RiAdminLine />,
       iconFill: <RiAdminFill />,
-      to: "/user",
+      to: "/crm",
     },
-    {
-      name: "Review",
-      iconOutline: <FaRegMessage />,
-      iconFill: <FaMessage />,
-      to: "/review",
-    },
-    {
-      name: "Predict Badge",
-      iconOutline: <FaRegUser />,
-      iconFill: <FaUser />,
-      to: "/predict-badge",
-    },
+    // {
+    //   name: "Review",
+    //   iconOutline: <FaRegMessage />,
+    //   iconFill: <FaMessage />,
+    //   to: "/review",
+    // },
+    // {
+    //   name: "Predict Badge",
+    //   iconOutline: <FaRegUser />,
+    //   iconFill: <FaUser />,
+    //   to: "/predict-badge",
+    // },
     // {
     //   name: "Settings",
     //   iconOutline: <FaRegSun />,

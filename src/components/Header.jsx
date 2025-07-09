@@ -1,11 +1,27 @@
 import { FaSearch, FaBell } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { useLocation } from "react-router-dom";
+import { useMemo } from "react";
 
 export default function Header() {
+  const location = useLocation();
+
+  const pageTitle = useMemo(() => {
+    const path = location.pathname;
+
+    if (path === "/") return "Dashboard";
+    if (path.startsWith("/product")) return "Product";
+    if (path.startsWith("/customer")) return "Customer";
+    if (path.startsWith("/quotes")) return "Quotes";
+    if (path.startsWith("/user")) return "User";
+    if (path.startsWith("/review")) return "Review";
+    if (path.startsWith("/crm")) return "CRM";
+    return "Halaman";
+  }, [location.pathname]);
   return (
     <header className="flex items-center justify-between px-6 py-4 bg-[#e9dcd2] rounded-b-2xl shadow-md">
       {/* Left: Page Title */}
-      <h2 className="text-2xl font-bold font-poppins text-black">Dashboard</h2>
+      <h2 className="text-2xl font-bold font-poppins text-black">{pageTitle}</h2>
 
       {/* Right: Search + Notifications + Profile */}
       <div className="flex items-center gap-4">
@@ -43,9 +59,15 @@ export default function Header() {
             </div>
           </summary>
           <ul className="menu dropdown-content bg-base-100 rounded-box w-52 mt-2 p-2 shadow z-50">
-            <li><a>Profile</a></li>
-            <li><a>Settings</a></li>
-            <li><a>Logout</a></li>
+            <li>
+              <a>Profile</a>
+            </li>
+            <li>
+              <a>Settings</a>
+            </li>
+            <li>
+              <a>Logout</a>
+            </li>
           </ul>
         </details>
       </div>

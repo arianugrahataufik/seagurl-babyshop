@@ -15,6 +15,8 @@ const ErrorPages = React.lazy(() => import("./pages/ErrorPages"));
 const User = React.lazy(() => import("./pages/User"));
 const Review = React.lazy(() => import("./pages/Review"));
 const PredictBadge = React.lazy(() => import("./pages/PredictBadge"));
+const CRM = React.lazy(() => import("./pages/CRM/CRM"));
+const CRMedit = React.lazy(() => import("./pages/CRM/CRMedit"));
 
 const MainLayout = React.lazy(() => import("./layouts/MainLayout"));
 const AuthLayout = React.lazy(() => import("./layouts/AuthLayout"));
@@ -53,6 +55,8 @@ function App() {
         <Route path="/review" element={<Review />} />
         <Route path="/predict-badge" element={<PredictBadge />} />
         <Route path="/setting" element={<Setting />} />
+        <Route path="/crm" element={<CRM />} />
+        <Route path="/crm/edit" element={<CRMedit />} />
       </Route>
 
       <Route element={<AuthLayout />}>
