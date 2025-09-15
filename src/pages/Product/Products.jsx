@@ -98,11 +98,35 @@ export default function Products() {
                       src={products.image}
                       alt={products.name}
                       className="w-16 h-16 object-cover rounded-lg shadow"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        document.getElementById('my_modal_1').showModal()
+                      }}
                     />
                   ) : (
                     <span className="text-gray-500 italic">No image</span>
                   )}
+                  <dialog id="my_modal_1" className="modal">
+                    <div className="modal-box">
+                      <img
+                      src={products.image}
+                      alt={products.name}
+                      className="w-16 h-16 object-cover rounded-lg shadow"
+  
+                    />
+                      <p className="py-4">
+                        Press ESC key or click the button below to close
+                      </p>
+                      <div className="modal-action">
+                        <form method="dialog">
+                          {/* if there is a button in form, it will close the modal */}
+                          <button className="btn">Close</button>
+                        </form>
+                      </div>
+                    </div>
+                  </dialog>
                 </td>
+
                 <td className="py-2 px-4 text-center space-x-2">
                   <button
                     onClick={(e) => {

@@ -82,12 +82,12 @@ export default function Sidebar() {
     //   iconFill: <FaMessage />,
     //   to: "/review",
     // },
-    // {
-    //   name: "Predict Badge",
-    //   iconOutline: <FaRegUser />,
-    //   iconFill: <FaUser />,
-    //   to: "/predict-badge",
-    // },
+    {
+      name: "Predict Badge",
+      iconOutline: <FaRegUser />,
+      iconFill: <FaUser />,
+      to: "/predict-badge",
+    },
     // {
     //   name: "Settings",
     //   iconOutline: <FaRegSun />,

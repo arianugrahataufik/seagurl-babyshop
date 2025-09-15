@@ -45,9 +45,9 @@ export default function CRM() {
 
   return (
     <div className="p-6 bg-[#E8DDD3] rounded-2xl font-poppins">
-      <Breadcrumb items={["CRM"]} />
+      <Breadcrumb items={["Summary"]} />
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-2xl font-bold">CRM Overview</h2>
+        <h2 className="text-2xl font-bold">Overview</h2>
         <button
           onClick={() => navigate("/crm/edit")}
           className="flex items-center gap-2 bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600 transition"

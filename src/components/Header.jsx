@@ -15,7 +15,7 @@ export default function Header() {
     if (path.startsWith("/quotes")) return "Quotes";
     if (path.startsWith("/user")) return "User";
     if (path.startsWith("/review")) return "Review";
-    if (path.startsWith("/crm")) return "CRM";
+    if (path.startsWith("/crm")) return "Summary";
     if (path.startsWith("/testimoni")) return "Testimoni";
     return "Halaman";
   }, [location.pathname]);
